@@ -1,0 +1,18 @@
+#root {
+	padding: 0;
+	text-align: center;
+	max-width: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	background: #EBECEE;
+}
+
+.corpo {
+	max-width: 1280px;
+}

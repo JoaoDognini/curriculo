@@ -1,0 +1,63 @@
+.secao_formacao {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 25px;
+	flex-direction: column;
+	padding: 2rem;
+	margin-bottom: 0;
+}
+
+.secao_formacao_formacoes {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	background-color: #FFF;
+	padding: 1rem;
+	border-radius: 25px;
+}
+
+.senai {
+	background-color: #0047B6;
+	color: #FFF;
+}
+
+.alura {
+	background-color: #2A7AE4;
+	color: #FFF;
+}
+
+.descomplica {
+	background-color: #08E88F;
+	// color: #FFF;
+}
+
+.card_formacao {
+	padding: 1rem;
+	// background-color: rgb(215, 229, 250);
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	h1 {
+		margin: 0;
+		font-size: 1.5rem;
+		font-weight: 600;
+
+	}
+
+
+
+	h2 {
+		margin: 0;
+		font-size: 1.25rem;
+		font-weight: 500;
+	}
+
+	h3 {
+		margin: 0;
+		font-size: 1rem;
+		font-weight: 400;
+	}
+}

@@ -1,0 +1,15 @@
+.secao_experiencia_e_formacao {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: start;
+	column-gap: 25px;
+	background-color: #FFF;
+	border-radius: 25px;
+	margin-bottom: 30px;
+}
+
+@media (max-width: 750px) {
+	.secao_experiencia_e_formacao {
+		grid-template-columns: 1fr;
+	}
+}

@@ -1,0 +1,39 @@
+.secao_experiencia {
+	padding: 2rem;
+
+	&_experiencias {
+		padding: 0 1rem 1rem 1rem;
+		border-radius: 25px;
+		background-color: #fff;
+
+		h1 {
+			font-size: 1.5rem;
+			color: #044d81;
+		}
+	}
+}
+
+.secao_experiencia_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+
+}
+
+.secao_experiencia_container_div {
+	background-color: #044d81;
+	color: #FFF;
+	border-radius: 25px;
+	padding: 1rem;
+
+	h2 {
+		font-weight: 400;
+		margin: 0;
+	}
+
+	h3 {
+		font-weight: 300;
+		margin: 0;
+	}
+}

@@ -1,0 +1,17 @@
+:root {
+  font-family: Poppins;
+}
+
+* {
+  ul {
+    padding: 0;
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+  h1 {
+		font-weight: 700;
+	}
+}

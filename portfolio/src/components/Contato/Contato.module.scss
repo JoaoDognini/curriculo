@@ -1,0 +1,28 @@
+.rodape {
+	border-radius: 25px 25px 0 0;
+	background-color: rgb(215, 229, 250);
+	padding: 0.5rem 1rem;
+
+	&_titulo {
+		font-weight: 400;
+	}
+
+	&_contato {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		&_lista {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 20px;
+
+			&_item {
+				a img {
+					width: 50px;
+				}
+			}
+		}
+	}
+}
