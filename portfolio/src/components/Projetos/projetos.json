@@ -1,0 +1,99 @@
+[
+	{
+		"nome": "Organo",
+		"imagem": "Organo.png",
+		"descricao": "Site feito para curso da Alura, de forma simples para possibilitar a criação de equipes, podendo cadastrar novos usuários e classificar a equipe que fazem parte.",
+		"links": {
+			"repositorio": "https://github.com/JoaoDognini/organo",
+			"deploy": "https://organo-joao.vercel.app/"
+		},
+		"ferramentas": [
+			{
+				"imagem": "react.png",
+				"alt": "Logo do React"
+			},
+			{
+				"imagem": "typescript.png",
+				"alt": "Logo do Typescript"
+			},
+			{
+				"imagem": "html.png",
+				"alt": "Logo do HTML"
+			},
+			{
+				"imagem": "css.png",
+				"alt": "Logo do CSS"
+			},
+			{
+				"imagem": "figma.png",
+				"alt": "Logo do Figma"
+			}
+		]
+	},
+	{
+		"nome": "Clonexo",
+		"imagem": "Clonexo.png",
+		"descricao": "Projeto feito para a gincana de férias da empresa onde meu primo trabalha, sendo uma cópia básica do jogo conexo.ws.",
+		"links": {
+			"repositorio": "https://github.com/JoaoDognini/conexo-clone",
+			"deploy": "https://conexo-clone.vercel.app/"
+		},
+		"ferramentas": [
+			{
+				"imagem": "react.png",
+				"alt": "Logo do React"
+			},
+			{
+				"imagem": "typescript.png",
+				"alt": "Logo do Typescript"
+			},
+			{
+				"imagem": "scss.png",
+				"alt": "Logo do SCSS"
+			},
+			{
+				"imagem": "css.png",
+				"alt": "Logo do CSS"
+			},
+			{
+				"imagem": "html.png",
+				"alt": "Logo do HTML"
+			}
+		]
+	},
+	{
+		"nome": "Aluroni",
+		"imagem": "Aluroni.png",
+		"descricao": "Site projeto do curso da Alura, utilizando uma interface simples para conhecer mais sobre o restaurante e também o cardápio, podendo buscar, filtrar e ordenar os pratos conforme requisitado.",
+		"links": {
+			"repositorio": "https://github.com/JoaoDognini/aluroni",
+			"deploy": "https://aluroni-joao.vercel.app"
+		},
+		"ferramentas": [
+			{
+				"imagem": "react.png",
+				"alt": "Logo do React"
+			},
+			{
+				"imagem": "typescript.png",
+				"alt": "Logo do Typescript"
+			},
+			{
+				"imagem": "scss.png",
+				"alt": "Logo do SCSS"
+			},
+			{
+				"imagem": "html.png",
+				"alt": "Logo do HTML"
+			},
+			{
+				"imagem": "css.png",
+				"alt": "Logo do CSS"
+			},
+			{
+				"imagem": "figma.png",
+				"alt": "Logo do Figma"
+			}
+		]
+	}
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "nome": "SENAI",
+        "curso": "Desenvolvimento de Sistemas",
+        "periodo": "2020-2022"
+    },
+    {
+        "nome": "Descomplica",
+        "curso": "Sistemas de Informação",
+        "periodo": "2024-2028"
+    },
+    {
+        "nome": "Alura",
+        "curso": "Cursos frontend e backend",
+        "periodo": "2023-2024"
+    }
+]

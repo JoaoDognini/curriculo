@@ -1,8 +1,8 @@
-import linkedin from '../../assets/tecs/linkedin.png';
-import github from '../../assets/tecs/github.png';
-import gmail from '../../assets/tecs/gmail.png';
+import linkedin from '../../assets/linkedin.png';
+import github from '../../assets/github.png';
+import gmail from '../../assets/gmail.png';
 import styles from './SobreMim.module.scss';
-import foto from './foto.png';
+import foto from './imgs/foto.png';
 
 export default function SobreMim() {
 	return (
@@ -17,13 +17,13 @@ export default function SobreMim() {
 						</div>
 						<div className={styles.secao_sobremim_container_info_links}>
 							<a target='blank' href='https://github.com/JoaoDognini'>
-								<img src={github} alt='Logo do Github'/>
+								<img src={github} alt='Logo do Github' />
 							</a>
 							<a target='blank' href='https://www.linkedin.com/in/joão-otávio-azevedo-51637721b/'>
-								<img src={linkedin} alt='Logo do Linkedin'/>
+								<img src={linkedin} alt='Logo do Linkedin' />
 							</a>
 							<a target='blank' href='mailto:joaootavioazevedo@gmail.com'>
-								<img src={gmail} alt='Logo do Gmail'/>
+								<img src={gmail} alt='Logo do Gmail' />
 							</a>
 						</div>
 					</div>

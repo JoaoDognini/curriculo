@@ -3,92 +3,96 @@
 	border-radius: 25px;
 	padding: 1rem;
 	margin-bottom: 30px;
-}
 
-.secao_projetos_lista {
-	display: flex;
-	justify-content: center;
-	gap: 10px;
-	flex-wrap: wrap;
-}
-
-.secao_projetos_card {
-	padding: 1rem;
-	background-color: rgb(215, 229, 250);
-	max-width: 500px;
-	min-height: 530px;
-
-	h1 {
-		// margin: 0;
-		font-weight: 500;
-	}
-
-	img {
-		max-width: 500px;
-	}
-
-	p {
-		min-height: 70px;
-	}
-
-	&_rodape {
+	&_lista {
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
+		gap: 10px;
+		flex-wrap: wrap;
 
-		&_lista {
-			display: flex;
-			gap: 5px;
+		&_card {
+			padding: 1rem;
+			background-color: rgb(215, 229, 250);
+			max-width: 500px;
+			min-height: 530px;
 
-			&_item {
+			h1 {
+				// margin: 0;
+				font-weight: 500;
+			}
+
+			img {
+				max-width: 500px;
+			}
+
+			p {
+				min-height: 70px;
+			}
+
+			&_rodape {
 				display: flex;
-				align-self: center;
+				justify-content: space-between;
 
-				img {
-					width: 35px;
+				&_lista {
+					display: flex;
+					gap: 5px;
+
+					&_item {
+						display: flex;
+						align-self: center;
+
+						img {
+							width: 35px;
+						}
+					}
+				}
+
+				&_botoes {
+					display: flex;
+
+					a {
+						text-decoration: none;
+						color: #ffffff;
+						margin: 0 10px;
+						background-color: #3067ff;
+						padding: 0.5rem;
+						border-radius: 15px;
+
+						&:hover {
+							background-color: #787dc2;
+							color: #000;
+						}
+					}
+
+
 				}
 			}
 		}
 
-		&_botoes {
-			display: flex;
-
-			a {
-				text-decoration: none;
-				color: #ffffff;
-				margin: 0 10px;
-				background-color: #3067ff;
-				padding: 0.5rem;
-				border-radius: 15px;
-
-				&:hover {
-					background-color: #787dc2;
-					color: #000;
-				}
-			}
-
-
-		}
 	}
 }
+
+
 
 @media (max-width: 750px) {
 	.secao_projetos_lista {
 		padding: 0;
+
+		&_card {
+			max-width: 350px;
+			min-height: 0;
+
+			img {
+				max-width: 300px;
+			}
+
+			&_rodape {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 20px;
+			}
+		}
 	}
 
-	.secao_projetos_card {
-		max-width: 350px;
-		min-height: 0;
-
-		img {
-			max-width: 300px;
-		}
-
-		&_rodape {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			gap: 20px;
-		}
-	}
 }

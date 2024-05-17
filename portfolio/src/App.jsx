@@ -1,12 +1,5 @@
 import './App.css'
-import { Link, Element } from 'react-scroll';
-// import opt from './assets/operacional-logo.jpeg';
-// import alura from './assets/alura-logo.png';
-// import senai from './assets/senai-logo.png';
-// import descomplica from './assets/descomplica-logo.png';
-import linkedin from './assets/tecs/linkedin.png';
-import github from './assets/tecs/github.png';
-import foto from './assets/foto.jpeg';
+import { Element } from 'react-scroll'
 import SobreMim from './components/SobreMim';
 import Cabecalho from './components/Cabecalho';
 import ExperienciaFormacao from './components/Experiencia-Formacao';
