@@ -1,13 +1,15 @@
 .navegacao {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-items: center;
 	position: sticky;
 	top: 0;
-	align-items: center;
 	backdrop-filter: blur(6px);
 	background: rgba(255, 255, 255, 0.8);
 	border-radius: 0 0 20px 20px;
 	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+	max-height: 50px;
+	padding: 5px 1rem 0 1rem;
 }
 
 .navegacao_mobile {
@@ -16,11 +18,21 @@
 
 .navegacao ul {
 	display: flex;
+	margin: 0;
 }
 
 .navegacao_links {
 	a {
-		margin: 0 0.5rem;
+		img {
+			box-sizing: border-box;
+			margin: auto 10px;
+			width: 35px;
+
+			&:hover {
+				border-radius: 50%;
+				border: 2px solid #fd5d41;
+			}
+		}
 	}
 }
 
@@ -29,10 +41,6 @@
 	font-size: 1rem;
 	font-weight: 500;
 	color: #000;
-}
-
-.navegacao div a img {
-	width: 35px;
 }
 
 .navegacao ul li a:hover {

@@ -32,6 +32,7 @@
 			&_rodape {
 				display: flex;
 				justify-content: space-between;
+				box-sizing: border-box;
 
 				&_lista {
 					display: flex;
@@ -57,14 +58,13 @@
 						background-color: #3067ff;
 						padding: 0.5rem;
 						border-radius: 15px;
+						border: 2px solid #3067ff;
 
 						&:hover {
-							background-color: #787dc2;
-							color: #000;
+							background-color: #FFF;
+							color: #3067ff;
 						}
 					}
-
-
 				}
 			}
 		}

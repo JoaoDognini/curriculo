@@ -175,10 +175,10 @@ export default function Cabecalho() {
 				<div className={styles.navegacao_links}
 				>
 					<a target='blank' href='https://github.com/JoaoDognini'>
-						<img src={github} />
+						<img src={github} alt='Logo do Github' />
 					</a>
 					<a target='blank' href='https://www.linkedin.com/in/joão-otávio-azevedo-51637721b/'>
-						<img src={linkedin} />
+						<img src={linkedin} alt='Logo do LinkedIn' />
 					</a>
 					<a target='blank' href='mailto:joaootavioazevedo@gmail.com'>
 						<img src={gmail} alt='Logo do Gmail' />

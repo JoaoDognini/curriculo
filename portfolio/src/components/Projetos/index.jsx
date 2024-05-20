@@ -1,11 +1,4 @@
 import styles from './Projetos.module.scss';
-import organo from '../../assets/projs/Organo.png';
-import organo2 from '../../assets/projs/Organo2.png';
-import aluroni from '../../assets/projs/Aluroni.png';
-import aluroni2 from '../../assets/projs/Aluroni2.png';
-import aluroni3 from '../../assets/projs/Aluroni3.png';
-import clonexo from '../../assets/projs/Clonexo.png';
-import clonexo2 from '../../assets/projs/Clonexo2.png';
 
 import projetos from './projetos.json';
 

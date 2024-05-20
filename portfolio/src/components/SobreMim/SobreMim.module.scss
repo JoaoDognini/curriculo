@@ -6,6 +6,7 @@
 	background-color: #FFF;
 	border-radius: 25px;
 	margin-bottom: 30px;
+	row-gap: 100px;
 
 	p {
 		padding: 0 8rem;
@@ -43,6 +44,12 @@
 
 					img {
 						width: 40px;
+						box-sizing: border-box;
+						
+						&:hover {
+							border-radius: 50%;
+							border: 2px solid #fd5d41;
+						}
 					}
 				}
 			}
@@ -66,6 +73,7 @@
 		flex-direction: column;
 		margin-top: 70px;
 		height: auto;
+		row-gap: 0;
 
 		p {
 			padding: 0;

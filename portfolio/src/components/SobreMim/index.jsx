@@ -32,7 +32,7 @@ export default function SobreMim() {
 
 
 				<div className={styles.secao_sobremim_apresentacao_texto}>
-					<p>Meu último cargo foi como fullstack júnior, trabalhando com Angular, C# e PL/SQL. Sigo estudando na área para continuar minha carreira. Minha especialidade inclui React, TypeScript, HTML, CSS, SCSS e StyledComponents.</p>
+					<p>Já trabalhei como Fullstack Júnior, e atualmente sigo estudando para aprimorar minhas habilidades no desenvolvimento web. Meu foco é no front-end, porém tenho interesse em back-end também. Minha especialidade inclui <b>React, JavaScript, TypeScript, HTML, CSS, SCSS, Styled Components.</b></p>
 					<img src={foto} />
 				</div>
 			</section>

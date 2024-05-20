@@ -11,23 +11,21 @@ function App() {
 	return (
 		<>
 			<Cabecalho />
-			<div className='corpo'>
-				<Element name='sobremim'>
-					<SobreMim />
-				</Element>
-				<Element name='experiencia_formacao'>
-					<ExperienciaFormacao />
-				</Element>
-				<Element name='skills'>
-					<Skills />
-				</Element>
-				<Element name='projetos'>
-					<Projetos />
-				</Element>
-				<Element name='contato'>
-					<Contato />
-				</Element >
-			</div>
+			<Element name='sobremim'>
+				<SobreMim />
+			</Element>
+			<Element name='experiencia_formacao' className='elemento'>
+				<ExperienciaFormacao />
+			</Element>
+			<Element name='skills' className='elemento'>
+				<Skills />
+			</Element>
+			<Element name='projetos' className='elemento'>
+				<Projetos />
+			</Element>
+			<Element name='contato' className='elemento'>
+				<Contato />
+			</Element >
 		</>
 	)
 }
